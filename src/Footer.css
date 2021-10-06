@@ -1,0 +1,35 @@
+.footer {
+  background-color: #232f3e;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+.footer__container {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.footer__div {
+  margin: 0 30px;
+  padding: 10px;
+}
+.footer__div > strong {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.footer__div > p {
+  font-size: 14px;
+  margin: 2px 0;
+}
+
+.footer__backToTop {
+  background-color: #37475a;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}
+.footer__backToTop:hover {
+  cursor: pointer;
+  color: white;
+}
